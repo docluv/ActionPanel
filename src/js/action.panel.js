@@ -3,18 +3,6 @@
 
 (function (window, undefined) {
 
-    /*
-
-    button = {
-        Text: "",
-        callback: function(){},
-        btnClass: "orange btn myButton",
-        selector: ".myButton"
-    };
-
-    */
-
-
     var ActionPanel = function (panelSelector) {
 
         var that = new ActionPanel.fn.init();

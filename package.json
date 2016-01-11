@@ -1,0 +1,22 @@
+{
+    "name": "Action-Panel",
+    "version": "",
+    "description": "",
+    "main": "dist/action.panel.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Chris Love",
+    "license": "",
+    "private": true,
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-less": "*",
+        "grunt-contrib-yuidoc": "*",
+        "matchdep": "*",
+        "grunt-jscs": "*"
+    }
+
+}
