@@ -4,33 +4,25 @@
 
 .expanded-action-panel .action-panel {
     display: block;
-    width:220px;
+    width:@action-panel-width;
 }
 
 .action-nav {
     background-color: transparent;
     font-weight: 300;
-    color: #fff;
+    color: @action-panel-nav-font-color;
     text-decoration: none;
     font-size: 1.25em;
     display: block;
-    width: 220px;
-    border-bottom: 1px solid #777;
+    width: @action-panel-width;
+    border-bottom: 1px solid @action-panel-border-bottom-color;
     padding: 0 0 0 12px;
-}
-
-.aniswath-nav{
-    color: #fff;
-    width: 190px;
-    display: block;
-    margin-left: 20px;
-    text-decoration:none;
 }
 
 .sub-sub-nav {
     display: block;
-    width: 220px;
-    border-bottom: 1px solid #777;
+    width: @action-panel-width;
+    border-bottom: 1px solid @action-panel-border-bottom-color;
 }
 
 .redraw-actions {
